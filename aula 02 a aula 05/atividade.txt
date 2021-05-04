@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log ("oi meu nome é luiz ")
+        alert ("oi meu nome é luiz")
+    </script>
+</body>
+</html>
+
+
+10) Qual é o resultado de cada operação? 
+    A) "" + 1 + 0 // 10
+    B) "" - 1 + 0 // -1
+    C) 6 / "3" // 2
+    D) "2" * "3" // 6
+    E) 4 + 5 + "px" // 9px
+    F) "$" + 4 + 5 // 45
+    G) "4" - 2 // 2
+
+
+
+ 1)   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log ("oi meu nome é luiz ")
+        alert ("oi meu nome é luiz")
+    </script>
+</body>
+</html>
+
+
+2)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       console.log("cadastro de funcionario:\n1cadastrar funcionario\n2listar funcionario\n3editar funcionarios\n4deletar funcionarios\n5sair");
+    </script>
+
+ </body>
+</html>
+
+
+3)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let nome = 'joao'
+    console.log(nome);
+    let joao = 'adimin'
+    console.log(joao);
+
+    </script>
+</body>
+</html>
+
+
+
+
+4)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nome = 'luiz'
+        console.log(nome);
+        let idade = 19
+        console.log(idade);
+        let peso = 68
+        console.log(peso);
+        let altura = 1.67
+        console.log(altura);
+        let telefoneDoUsuario = 933444555
+        console.log(telefoneDoUsuario);
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+5)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let titulo = 'jogosMortais'
+        console.log(titulo);
+        let edição = 'volume1'
+        console.log(edição);
+        let autor = 'karlsMarks'
+        console.log(autor);
+        let datadepublicação = 5082001 
+        console.log(datadepublicação);
+       ;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+6)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+        let umaDataDeNascimento = 02052001
+        console.log(umaDataDeNascimento);
+        let quantidadeDeFilhosQueUmaPessoaPossui = 1
+        console.log(quantidadeDeFilhosQueUmaPessoaPossui);
+        let oUsuarioEstaLogadoNoSeuSistema = 'sim'
+        console.log(oUsuarioEstaLogadoNoSeuSistema);
+    </Script>
+</body>
+</html>
+
+
+
+
+
+7)alert(`Olá ${nome}`) // ?
+
+
+
+
+
+
+
+8)console.log(area)
+
+
+
+
+
+
+9)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 2
+let x = 1 + (a *= 2)
+console.log(a, x)
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+11)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        altura = 5 
+        largura = 10
+        
+
+    </script>
+</body>
+</html>
+
+
+
+12)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=sc, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        1+1
+        console.log(1+1);
+        alert(1+1)
+    </script>
+</body>
+</html>
+
+
+
+
+
+13)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let usuario1 = 5
+        console.log(usuario1);
+        alert(usuario1)
+        let usuario2 =  6
+        console.log(usuario2);
+        alert(usuario2)
+        let=5+6
+        alert(5+6)
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+14)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let = 67
+        let = 78
+        let = 99
+        console.log(67+78+99);
+        alert(67+78+99)
+    </script>
+</body>
+</html>
+
+
+
+16)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let usuario1 = 2
+        console.log(30+30);
+        alert(30+30)
+    </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content+ "width+devi
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+            Comentario de Bloco
+            eu posso comentar em várias linhas
+        */
+
+        // Comentário de linha
+
+        let variavel // undefined
+        console.log(varíavel)
+
+        let nome = Angelina
+
+        //Regras de Nomenclatura das variáveis
+        //  - Não pode iniciar com simbolos (com exceção do $ e _);
+        //  - Não pode iniciar com números;
+        //  - Não pode ser uma palavra- chave;
+        //  - Devem ser escritas emcamelCase;
+        //    Ex.: numero Telefone
+
+
+
+
+
+
+
+
+        //
+        console.log(numero)
+
+
+        //tipos de dados
+        let palavras = "Teste" // String
+        let numero1 = 10 // Number
+        let numero2 =10.5 // Number
+        let condicional = true // Blolean
+        let indefinido // Undefinid
+        let nulo = null // null
+        let numeroGrande = 252526678009887654332617890987665
+
+        console.log(palavras)
+        console.log(numero1)
+        console.log(numero2)
+        console.log(condicional)
+        console.log(indefinido)
+        console.log(nulo)
+        console.log(numeroGrande)
+
+        // Mostrar o tipo
+        console.log(typeof palavras)
+        console.log(typeof numero1)
+        console.log(typeof condicinal)
+        console.log(typeof numeroGrande)
+
+        // Pedir informaçõoes
+        let nome = prompt ("Digite seu nome")
+        console.log(nome)
+
+
+        
+        // Convertendo String para número
+        let numero = Number (prompt("Digite um número))
+        console.log(typeof numero)
+
+        numero = numero + 10 // 20
+        soma = numero + 10  // 30
+        
+
+
+        console.log(soma,numero)
+
+
+    
+    </script>
+</body>
+</html>
