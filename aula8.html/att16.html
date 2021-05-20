@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let maior, menor
+for (let i = 0; i < 5; i++) {
+    let valor = +prompt("Digite um número")
+    
+    if (i == 0) {
+        maior = valor
+        menor = valor
+    }
+
+    if (valor > maior) {
+        maior = valor 
+    } else if (valor < menor) {
+        menor = valor 
+    }
+}
+
+console.log(`Maior valor: ${maior}`)
+console.log(`Menor valor: ${menor}`) 
+    </script>
+</body>
+</html>

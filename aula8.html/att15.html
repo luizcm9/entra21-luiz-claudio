@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let acumuladorSalario = 0,
+acumuladorQuantidadeFilhos = 0,    
+maiorSalario = 0,
+contador = 0
+while (true) {
+    let salario = +prompt("Digite o seu salário")
+    
+    if (salario < 0) {
+        break
+    }
+
+    if (salario > maiorSalario) maiorSalario = salario
+
+    let quantidadeFilhos = +prompt("Digite a quantidade de filhos")
+
+    acumuladorSalario += salario
+    acumuladorQuantidadeFilhos += quantidadeFilhos
+
+    contador++
+}
+
+let mediaSalario = acumuladorSalario / contador
+let mediaFilhos = acumuladorQuantidadeFilhos / contador
+
+console.log(`Média salarial: ${mediaSalario.toFixed(2)}`)
+console.log(`Média de filhos: ${mediaFilhos.toFixed(2)}`)
+console.log(`Maior salário: ${maiorSalario}`)
+    </script>
+</body>
+</html>

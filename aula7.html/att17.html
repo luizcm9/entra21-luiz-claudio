@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numeroA = Number(prompt("Me diga um numero."))
+let numeroB = Number(prompt("Me diga outro numero."))
+let numeroC = Number(prompt("Me diga mais um numero."))
+
+if (numeroA >= numeroB && numeroA >= numeroC) {
+    if (numeroB >= numeroC) {
+        console.log(`A ordem dos numeros é ${numeroA}, ${numeroB} e ${numeroC}`)
+    } else {
+        console.log(`A ordem dos numeros é ${numeroA}, ${numeroC} e ${numeroB}`)
+    }
+} else if (numeroB >= numeroA && numeroB >= numeroC) {
+    if (numeroA >= numeroC) {
+        console.log(`A ordem dos numeros é ${numeroB}, ${numeroA} e ${numeroC}`)
+    } else {
+        console.log(`A ordem dos numeros é ${numeroB}, ${numeroC} e ${numeroA}`)
+    }
+} else if (numeroC >= numeroA && numeroC >= numeroB) {
+    if (numeroA >= numeroB){
+        console.log(`A ordem dos numeros é ${numeroC}, ${numeroA} e ${numeroB}`)
+    } else {
+        console.log(`A ordem dos numeros é ${numeroC}, ${numeroB} e ${numeroA}`)
+    }
+}
+    </script>
+</body>
+</html>

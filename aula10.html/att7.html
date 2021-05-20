@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function maiorMenor(numeros) {
+                let menor = numeros[0], maior = numeros[0]
+                for (let numero of numeros) {
+                    if (numero > maior) maior = numero
+                    if (numero < menor) menor = numero
+                }
+
+                return [maior, menor]
+            }            
+
+            function cadastraNumeros() {
+                let numeros = []
+                for (let i = 0; i < 50; i++) {
+                    numeros[i] = Math.floor(Math.random() * 1000) + 1
+                }
+
+                return numeros
+            }
+
+            let numeros = cadastraNumeros()
+            let [maior, menor] = maiorMenor(numeros)
+
+            console.log(numeros)
+            console.log(`Maior: ${maior}\nMenor: ${menor}`)
+        
+    </script>
+</body>
+</html>

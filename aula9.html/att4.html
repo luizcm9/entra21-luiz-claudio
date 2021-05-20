@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let matriz1 = [],
+        matriz2 = [],
+        matriz3 = []
+
+    for (let i = 0; i < 3; i++) {
+        matriz1[i] = []
+        for (let j = 0; j < 3; j++) {
+            matriz1[i][j] = +prompt(`Digite o valor da ${i + 1}a linha na ${j + 1} coluna da primeira matriz`)
+        }                
+    }
+
+    for (let i = 0; i < 3; i++) {
+        matriz2[i] = []
+        matriz3[i] = []
+        for (let j = 0; j < 3; j++) {
+            matriz2[i][j] = +prompt(`Digite o valor da ${i + 1}a linha na ${j + 1} coluna da segunda matriz`)
+
+            if (matriz1[i][j] > matriz2[i][j]) {
+                matriz3[i][j] = matriz1[i][j]
+            } else {    
+                matriz3[i][j] = matriz2[i][j]
+            }
+        }                
+    }                                   
+
+    let mostrarMatriz = ""
+    for (let i = 0; i < 3; i++) {
+        for (let j = 0; j < 3; j++) {
+            mostrarMatriz += matriz1[i][j] + "\t"
+        }
+        mostrarMatriz += "\n"
+    }
+
+    console.log(mostrarMatriz)
+
+    mostrarMatriz = ""
+    for (let i = 0; i < 3; i++) {
+        for (let j = 0; j < 3; j++) {
+            mostrarMatriz += matriz2[i][j] + "\t"
+        }
+        mostrarMatriz += "\n"
+    }
+
+    console.log(mostrarMatriz)
+    
+    
+    mostrarMatriz = ""
+    for (let i = 0; i < 3; i++) {
+        for (let j = 0; j < 3; j++) {
+            mostrarMatriz += matriz3[i][j] + "\t"
+        }
+        mostrarMatriz += "\n"
+    }
+
+    console.log(mostrarMatriz)
+    </script>
+</body>
+</html>

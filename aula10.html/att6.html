@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calculaPesoIdeal(altura, sexo) {
+                let pesoIdeal
+
+                switch(sexo) {
+                    case "M":
+                        pesoIdeal = 62.1 * altura - 44.7
+                        break
+                    case "F":
+                        pesoIdeal = 72.7 * altura - 58
+                        break
+                    default:
+                        throw TypeError("Valor de sexo é inválido!")
+                }
+
+                return pesoIdeal
+            }
+
+            let altura = +prompt("Digite a altura")
+            let sexo = prompt("Digite seu sexo").toUpperCase()
+
+            try {
+                console.log(calculaPesoIdeal(altura, peso))
+            } catch(e) {
+                console.log("Erro: " + e)
+            }
+    </script>
+</body>
+</html>

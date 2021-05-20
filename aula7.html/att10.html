@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let ladoA = +prompt("Digite o ladoA do triângulo")
+let ladoB = +prompt("Digite o ladoB do triângulo")
+let ladoC = +prompt("Digite o ladoC do triângulo")
+
+if (ladoA == ladoB && ladoA == ladoC) {
+    console.log("O triângulo é Equilátero")
+} else if (ladoA != ladoB && ladoA != ladoC && ladoB != ladoC) {
+    console.log("O triângulo é Escaleno")
+} else {
+    console.log("O triângulo é Isósceles")
+}
+    </script>
+</body>
+</html>
