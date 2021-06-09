@@ -4,12 +4,18 @@ h1{
  }
 
 
- .texto{
+ h2{
      color: rgb(44, 250, 79);
      background-color: rgb(251, 251, 251);
      font-size: medium;
      text-align: justify;
+ }
 
+ h3{
+    color: red; 
+ }
 
-
+ h4{
+     color: royalblue;
+     font-size: medium
  }
