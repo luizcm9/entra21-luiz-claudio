@@ -1,0 +1,54 @@
+
+
+nav{
+    background-color: navy;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content:  center;
+}
+nav ul a{
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: springgreen;
+}
+nav ul a:hover{
+    background-color: royalblue;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+   
+
+
+ h1{   
+    color: firebrick;
+
+    text-align: center;
+}
+
+
+
+.NOTA{
+    text-align: initial;
+}
+
+
+img{
+    border-radius: 50px;
+    
+}
+
+
+.cidades {
+    text-align: center;
+}
+
+ 
+
+    
+   
