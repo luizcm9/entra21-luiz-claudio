@@ -48,7 +48,71 @@ img{
     text-align: center;
 }
 
- 
+ .b{
+     text-align: initial;
+ }
 
+.n{
+        text-align: initial;
+}
+
+.video{
+    text-align: initial;
+}
+
+.mascara{
+    text-align: initial;
+}
+
+.h{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.gia{
+    font-size: 60px;
+}
     
+.canada{
+    font-size: 23px;
+}
    
+
+.peru{
+    font-size: 23px;
+}
+
+.havai{
+    font-size: 23px;
+}
+
+.espanha{
+    font-size: 23px;
+}
+
+.chile{
+    font-size: 23px;
+}
+
+
+.val{
+    font-size: 23px;
+}
+
+.templo{
+    font-size: 23px;
+}
+
+
+.li{
+    font-size: 23px;
+}
+
+.mac{
+    font-size: 23px;
+}
+
+.van{
+    font-size: 23px;
+}
