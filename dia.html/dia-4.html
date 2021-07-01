@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+</head>
+<body>
+    <p>Quantidade de segundos que passou hoje: </p>
+    <script>
+        function obtemSegundos() {
+            let hoje = new Date(),
+                horas = hoje.getHours(),
+                minutos = hoje.getMinutes(),
+                segundos = hoje.getSeconds()
+
+            return "" + (horas * 1 + minutos * 60 + segundos)
+        }
+
+        let p = document.querySelector("p")
+        p.textContent = obtemSegundos()
+         
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p></p>
+    <script>
+        let p = document.querySelector("p")
+
+        p.textContent = obtemDiaSemana(new Date(2021, 6, 2))
+
+        function obtemDiaSemana(data) {
+            let dia
+            switch (data.getDay()) {
+                case 0:
+                    dia = "domingo"
+                    break
+                case 1:
+                    dia = "segunda-feira"
+                    break
+                case 2:
+                    dai = "terça-feira"
+                    break
+                case 3:
+                    dia = "quarta-feira"
+                    break
+                case 4:
+                    dia = "quinta-feira"
+                    break
+                case 5:
+                    dia = "sexta-feira"
+                    break
+                case 6:
+                    dia = "sabado"
+                    break
+            }
+
+            return dia
+        }
+    </script>
+</body>
+
+</html>
