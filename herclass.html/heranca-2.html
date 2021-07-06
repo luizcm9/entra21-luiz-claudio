@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cabeca = {
+            oculos: 1
+        }
+
+        let mesa = {
+            _proto_:cabeca,
+            caneta: 3
+        }
+
+        let cama = {
+            _proto_:mesa,
+            lenco: 1,
+            travesseiro: 2
+        }
+
+        let bolso = {
+            _proto_:cama,
+            dinheiro: 200
+        }
+        
+        console.log(bolso.caneta);
+        console.log(cama.oculos);
+        console.log(mesa.dinheiro);
+
+    </script>
+</body>
+</html>
